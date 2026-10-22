@@ -1,0 +1,25 @@
+PERSONAL PORTFOLIO PROJECT — QUICK START
+
+1. Extract this ZIP folder.
+2. Open the personal-portfolio-project folder in Visual Studio Code.
+3. Open index.html in a browser (or use the Live Server extension).
+4. Replace "Your Name", your email, and generic social links in index.html.
+5. Edit README.md so every answer accurately describes you and your choices.
+6. Replace the illustrative project concepts with projects you actually completed.
+7. If you add a resume PDF, place it in assets/ and add a working link to it.
+8. The contact form is a demo: it validates locally but does NOT send email.
+9. Upload all project files to a GitHub repository.
+10. In GitHub: Settings -> Pages -> Deploy from a branch -> main -> /(root) -> Save.
+11. Wait for the Pages deployment, open the live URL, and test it.
+12. Submit the repository URL and live website URL on Brightspace.
+
+FILE STRUCTURE
+- index.html: website structure
+- style.css: styling and responsive layout
+- script.js: menu and form validation
+- README.md: answers to the assignment and design documentation
+- assets/: add your own images or resume here
+
+IMPORTANT
+This starter project includes sample identity text and illustrative project concepts.
+Personalize it before submission. Do not claim sample projects as completed work.

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio showcasing projects, skills, and professional goals.">
+  <meta name="theme-color" content="#101828">
+  <title>ASAD ALI | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="ASAD ALI home">ASAD ALI<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES</p>
+        <h1>Hi, I'm <span class="accent">ASAD ALI.</span><br>I'm an aspiring <span class="highlight">Web Developer</span>.</h1>
+        <p class="hero-description">I build clear, accessible, and useful digital experiences. This portfolio shares a little about me, the skills I'm developing, and projects I've worked on.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="social-links" aria-label="Professional links">
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Decorative code illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-card">
+          <div class="code-card-top"><span></span><span></span><span></span><small>hello-world.js</small></div>
+          <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"ASAD ALI"</span>,
+  curious: <span class="code-orange">true</span>,
+  learning: [
+    <span class="code-green">"HTML"</span>,
+    <span class="code-green">"CSS"</span>,
+    <span class="code-green">"JavaScript"</span>
+  ],
+  build() {
+    <span class="code-purple">return</span> <span class="code-green">"something useful"</span>;
+  }
+};</code></pre>
+        </div>
+        <div class="floating-tag tag-top">{" creative + curious "}</div>
+        <div class="floating-tag tag-bottom">⌘ always learning</div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="about">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2>Building skills.<br><span class="accent">Creating with purpose.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p>I'm an aspiring web developer who enjoys turning ideas into simple, approachable websites. I value thoughtful design, readable code, accessibility, and learning through hands-on projects.</p>
+          <p>I'm currently strengthening my front-end skills and looking for opportunities to contribute, collaborate, and grow. Replace this paragraph with your own background, interests, and career goals before publishing.</p>
+          <a class="text-link" href="#contact">Let's connect <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <div><p class="eyebrow">MY TOOLKIT</p><h2>Skills I'm building</h2></div>
+        <p>Update this list to accurately reflect your current experience.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>HTML5</h3><p>Semantic page structure and accessible content.</p></article>
+        <article class="skill-card"><div class="skill-icon">✳</div><h3>CSS3</h3><p>Responsive layouts, typography, and visual styling.</p></article>
+        <article class="skill-card"><div class="skill-icon">JS</div><h3>JavaScript</h3><p>Interactive behavior and form validation.</p></article>
+        <article class="skill-card"><div class="skill-icon">⑂</div><h3>Git & GitHub</h3><p>Version control and publishing projects online.</p></article>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">SELECTED WORK</p><h2>Projects & practice</h2></div>
+          <p>Use these starter entries as examples, then replace them with your real work.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-visual project-visual-one"><span class="project-label">01 / WEB DESIGN</span><div class="mini-window"><div class="mini-window-bar"></div><div class="mini-window-content"><i></i><i></i><i></i></div></div></div>
+            <div class="project-content"><p class="project-type">HTML · CSS</p><h3>Personal Portfolio</h3><p>A responsive portfolio concept for presenting skills, background, and work in one place.</p><div class="tag-list"><span>Responsive</span><span>Accessible</span></div><a class="text-link" href="#contact">Ask me about this project →</a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual project-visual-two"><span class="project-label">02 / JAVASCRIPT</span><div class="task-preview"><div class="task-check">✓</div><div><b>Today's priorities</b><small>Plan · Focus · Finish</small></div></div></div>
+            <div class="project-content"><p class="project-type">HTML · CSS · JS</p><h3>Task Planner Concept</h3><p>A practice project idea for organizing daily tasks and exploring interactive user interfaces.</p><div class="tag-list"><span>UI Design</span><span>JavaScript</span></div><a class="text-link" href="#contact">Ask me about this project →</a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual project-visual-three"><span class="project-label">03 / LEARNING</span><div class="analytics-preview"><div class="chart-bar bar-a"></div><div class="chart-bar bar-b"></div><div class="chart-bar bar-c"></div><div class="chart-bar bar-d"></div><div class="chart-bar bar-e"></div></div></div>
+            <div class="project-content"><p class="project-type">DESIGN · DEVELOPMENT</p><h3>Dashboard UI Concept</h3><p>A sample dashboard layout exploring visual hierarchy, cards, spacing, and data presentation.</p><div class="tag-list"><span>Layout</span><span>Design Systems</span></div><a class="text-link" href="#contact">Ask me about this project →</a></div>
+          </article>
+        </div>
+        <p class="note"><strong>Portfolio note:</strong> The project cards above are illustrative concepts, not claims of completed client work. Replace them with projects you have actually built, and link to working demos or repositories where possible.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="approach">
+      <div class="section-heading"><div><p class="eyebrow">HOW I WORK</p><h2>What matters to me</h2></div></div>
+      <div class="values-grid">
+        <article><span>01</span><h3>Keep it clear</h3><p>Make information easy to understand and navigate.</p></article>
+        <article><span>02</span><h3>Build for everyone</h3><p>Consider keyboard users, readable text, and accessible contrast.</p></article>
+        <article><span>03</span><h3>Keep learning</h3><p>Improve through feedback, testing, and small consistent steps.</p></article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div><p class="eyebrow">HAVE A PROJECT IN MIND?</p><h2>Let's make<br><span class="accent">something useful.</span></h2><p class="contact-intro">Have a question, opportunity, or idea to discuss? Send me a message using the form.</p><p class="email-line">Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p></div>
+        <form class="contact-form" id="contact-form">
+          <label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required minlength="2" placeholder="Jane Smith">
+          <label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="jane@example.com">
+          <label for="message">Message</label><textarea id="message" name="message" rows="4" required minlength="10" placeholder="Tell me a little about your message..."></textarea>
+          <button class="button button-primary submit-button" type="submit">Validate message <span aria-hidden="true">↗</span></button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite">This demo validates your message locally; it does not send email.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><a class="brand" href="#home">ASAD ALI<span>.</span></a><p>Designed and built with care · <span id="year">2026</span></p><a href="#home">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>
